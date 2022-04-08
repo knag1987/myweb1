@@ -8,4 +8,4 @@ hooks:
     - location: stop_tomcat.sh
   AfterInstall:
     - location: start_tomcat.sh
-      timeout: 20
+      timeout: 30
